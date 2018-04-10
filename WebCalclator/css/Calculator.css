@@ -1,0 +1,81 @@
+﻿.allButtons {
+    border-radius: 6px;
+    box-shadow: 0 3px #757575;
+    font-family: arial;
+    font-size: 17px;
+    margin: 10px;
+    width: 61px;
+    height: 40px;
+    border-width: 0px;
+}
+.resultButton:hover {
+    background-color: #81C784;
+    box-shadow: 0 3px #388E3C;
+}
+.resultButton {
+    color: #2E7D32;
+}
+.digitButton, .cleanButton, .resultButton {
+    background-color: #FFFFFF;
+}
+
+.operationButton {
+    background-color: #E0E0E0;
+}
+
+.cleanButton {
+    color: #f44336;
+}
+
+.resultButton:hover {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    box-shadow: 0 3px #004D40;
+}
+.resultButton:active {
+    background-color: #2E7D32;
+    box-shadow: 0 0px #800;
+    transform: translateY(3px);
+}
+
+.cleanButton:hover {
+    background-color: #f44336;
+    color: #FFFFFF;
+    box-shadow: 0 3px #b71c1c;
+}
+
+.cleanButton:active {
+    background-color: #f44336;
+    box-shadow: 0 0px #800;
+    transform: translateY(3px);
+}
+
+.digitButton:hover, .operationButton:hover {
+    background-color: #29B6F6;
+    box-shadow: 0 3px #01579B;
+}
+.digitButton:active, .operationButton:active {
+    background-color: #29B6F6;
+    box-shadow: 0 0px #800;
+    transform: translateY(3px);
+}
+
+.myTable {
+    background-color: #EAE9ED;
+    margin: 10px;
+    border-bottom: 3px solid #424242;
+    box-shadow: 5px 10px 15px #888888;
+}
+
+.resBox {
+    border-radius: 6px;
+    font-family: arial;
+    font-size: 20px;
+    border-width: 0px;
+    z-index: -1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 0px 8px;
+    width: 223px;
+    margin: 10px;
+    height: 44px;
+}
